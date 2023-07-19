@@ -2,6 +2,6 @@
 
 public class BookDescription : BookDescriptionBase
 {
-    public int BookId { get; set; }
-    public Book Book { get; set; }
+    public int BookId { get; set; } // PK и FK таблицы BookDescription 
+    public Book? Book { get; set; }
 }

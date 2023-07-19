@@ -2,5 +2,5 @@
 
 public class Book : BookBase
 {
-    public BookDescription Description { get; set; }
+    public BookDescription? Description { get; set; }
 }
