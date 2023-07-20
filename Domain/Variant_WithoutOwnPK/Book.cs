@@ -2,6 +2,6 @@
 
 public class Book : BookBase
 {
-    public int DescriptionId => Id; 
+    public int DescriptionId => Id; // это поле можно и удалить
     public BookDescription? Description { get; set; }
 }
